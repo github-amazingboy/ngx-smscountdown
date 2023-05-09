@@ -4,6 +4,10 @@
 
 [![NPM version](https://img.shields.io/npm/v/ngx-smscountdown.svg)](https://www.npmjs.com/package/ngx-smscountdown)
 
+## Demo
+- [Live Demo](https://angular-mmwr56.stackblitz.io)
+- [Stackblitz](https://stackblitz.com/edit/angular-mmwr56?file=src%2Fmain.ts)
+
 ## Usage
 
 ### 1. Install
@@ -15,7 +19,7 @@ npm install ngx-smscountdown --save
 import `SMSCountDownModule`。
 
 ```typescript
-import { SMSCountDownModule } from 'smscount-down;
+import { SMSCountDownModule } from 'ngx-smscountdown'
 
 @NgModule({
   imports: [ BrowserModule, SMSCountDownModule ],
