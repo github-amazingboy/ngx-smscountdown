@@ -1,0 +1,4 @@
+
+<button SMSCountDown Text="发送短信验证码" CountText="{leftSec}秒后可重发" [SendFun]="sendSMS">发送短信验证码</button>
+
+<button SMSCountDown Text="发送邮箱验证码" CountText="重发剩余{leftSec}秒..." CompleteText="重新发送" [MaxCounting]="8" [SendFun]="sendSMS">发送邮箱验证码</button>

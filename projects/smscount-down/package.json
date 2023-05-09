@@ -1,0 +1,23 @@
+{
+  "name": "ngx-smscountdown",
+  "version": "0.0.3",
+  "keywords": [
+    "smscountdown",
+    "重新发送验证码读秒"
+  ],
+  "author": "amazingboy <gcarpenterv@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/github-amazingboy/ngx-smscountdown/issues"
+  },
+  "homepage": "https://github.com/github-amazingboy/ngx-smscountdown#readme",
+  "peerDependencies": {
+    "@angular/common": "^15.2.0",
+    "@angular/core": "^15.2.0",
+    "rxjs": "~7.8.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
